@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(249, 225, 255);
+    width: 320px;
+    border-style: solid;
+    border-color: rgb(193, 202, 166);
+    padding: 5px 15px;
+}
+.main-div label{
+    font-weight: bold;
+
+}
+.main-div input{
+    width:80%;
+    margin-bottom: 2px;
+}
+.main-div #my-name{
+    text-align: center;
+    border-color: gold;
+}
+.main-div #myname:focus-within{
+    border-color: initial;
+}
+.main-div #btn{
+background-image: linear-gradient(to top,rgba(197, 197, 115, 0.5),rgb(256,256,256));
+border-width: thin;
+font-weight: bold;
+}
