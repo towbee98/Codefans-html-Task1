@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Validation</title>
+<style type="text/css">
+div{
+margin-top:40px;
+border:solid;
+opacity: 0.4;
+padding: 20px;
+line-height: 1.7;
+}
+h1{
+    box-sizing: content-box;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 15px;
+z-index: 1;
+}
+#Name,#Email{
+margin-left: 90px;
+}
+#Username{
+    margin-left: 64px;
+}
+#password{
+    margin-left: 68px;
+}
+#Retype-password{
+    margin-left: 15px;
+}
+#gender1{
+    margin-left: 88px;
+}
+#college{
+    margin-left: 77px;
+}
+#Contact{
+    margin-left: 55px;
+}
+#Submit{
+    margin-left: 134px;
+}</style>
+</head>
+<body>
+    <h1>Form Validation</h1>
+<div>
+<form method="POST" action="#">
+<label for="Name">Name:</label>
+<input type="text" id="Name" name="name"><br>
+<label for="Username">Username:</label>
+<input type="text" id="Username" name="Username"><br>
+<label for="password">password:</label>
+<input type="password" id="password" name="password"><br> 
+<label for="Retype-password">Re-type password:</label>
+<input type="password" id="Retype-password" ><br>
+<label for="gender">Gender</label>
+<input type="radio" id="gender1" name="gender" value="Male">Male
+<input type="radio" id="gender" name="gender" value="Female">Female
+<input type="radio" id="gender" name="gender" value="others">Others<br>
+<label for="skills">Programming skills:</label>
+<input type="checkbox" id="skills" name="skills"value="Java">Java
+<input type="checkbox" id="skills" name="skills"value="Android">Android
+<input type="checkbox" id="skills" name="skills"value="Ruby">Ruby
+<input type="checkbox" id="skills" name="skills"value=".Net">.Net<br>
+<label for="Contact">Contact No:</label>
+<input type="tel" id="Contact" name="contact"><br>
+<label for="Email">Email:</label>
+<input type="Email" id="Email" name="Email"><br>
+<label for="college">College:</label>
+<select name="colleges" id="college">
+<option value="Select college" Selected>Select college</option>
+<option value="loyola">loyola</option>
+<option value="winners">winners</option>
+</select><br>
+<input type="Submit" name="Submit" value="Submit" id="Submit">
+
+
+
+</form>
+</div>
+</html>

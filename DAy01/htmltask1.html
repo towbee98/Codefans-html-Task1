@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main-div{
+            border: thin;
+            width: 500px;
+            padding: 10px;
+            border-style: solid;
+            box-shadow: -0.5px 0.5px 2px  1px black;
+            opacity: 0.6;
+        }
+        h2{
+            margin-bottom: 1px;
+        }
+        .username,.password, #Submit{
+            margin-left: 150px;
+        }
+        #Username ,#password{
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        #Submit{
+            background-color: rgb(43, 38, 38);
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <h2>Login Window</h2>
+        <p>Welcome to the My Site</p>
+        <hr>
+        <form method="POST">
+        <label for="Username" class="username">Username</label>
+        <input type="user-name" name="name" id="Username"><br>
+        
+        <label for="password" class="password">Password</label>
+        <input type="password" name="password" id="password"><br>
+        <input type="submit" value="Submit" id="Submit">
+        </form>
+        </div>
+</body>
+</html>
